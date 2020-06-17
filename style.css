@@ -1,0 +1,21 @@
+/*header*/
+.header {
+    background: white;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+
+  /*footer*/
+  .footer {
+    padding: 20px; /* Some padding */
+    font-size: 15px;
+    text-align: center; /* Center text*/
+    background: #585858; /* Grey background */
+    font-family: Arial, serif, sans-serif;
+    color: white;
+  }
