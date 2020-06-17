@@ -3,13 +3,24 @@
     background: white;
   }
   
-  img {
+.main img{
     width: 100%;
     height: auto;
   }
   
+#logo img{
+    position: absolute;
+    margin: 0;
+    width: 130px;
+    height: 80px;
+    padding: 10px;  
+}
 
-
+.contents {
+    width: 1030px;
+    height: 100px;
+    margin: 0 auto;
+}
   /*footer*/
   .footer {
     padding: 20px; /* Some padding */
