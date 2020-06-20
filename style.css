@@ -31,9 +31,29 @@
 }
 
 .main img{
-    width: 100%;
-    height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  object-fit: cover;
+  width: 70%;
+  height: 400px;
+  border: 5px solid black;
   }
+
+  .main .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
   
 
 .topnav {
