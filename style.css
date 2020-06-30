@@ -89,7 +89,13 @@ height: 65px;
 }
 
 
-
+.popup {
+  position: absolute;
+  left: 150px;
+  top: 40px;
+  border: 1px solid #000;
+  z-index: 99999;
+}
 
 /*footer*/
 .footer {
