@@ -229,7 +229,7 @@ a, a:hover, a:focus, a:visited {
 
 .sub-tabs {position:absolute; left:0; bottom:0; width:100%; border-bottom:0;}
 .sub-tabs>li {font-family:Akrobat-Bold; float:none; display:inline-block; margin:0 2px;}
-.sub-tabs>li>a, .sub-tabs>li>a:hover {width:164px; background:#f4f8fb url(../images/visual-bottom.png) left bottom repeat-x; border-radius:10px 10px 0 0; font-weight:bold; font-size:19px; color:#3880c2; padding:5px 0; border:0;}
+.sub-tabs>li>a, .sub-tabs>li>a:hover {width:164px; background:#f4f8fb url(../images/visual-bottom.png) left bottom repeat-x; border-radius:10px 10px 0 0; font-weight:bold; font-size:19px; color:#228B22; padding:5px 0; border:0;}
 .sub-tabs>li.active>a, .sub-tabs>li.active>a:hover, .sub-tabs>li.active>a:focus {background:#e0733c url(../images/visual-bottom.png) left bottom repeat-x; color:#fff; border:0;}
 .sub-tabs>li.contact-active>a, .sub-tabs>li.contact-active>a:hover, .sub-tabs>li.contact-active>a:focus {background:#6fb75c url(../images/visual-bottom.png) left bottom repeat-x; color:#fff; border:0;}
 .text {font-size:15px; line-height:25px; letter-spacing:-1px;}
@@ -267,7 +267,7 @@ a, a:hover, a:focus, a:visited {
 .table-pna>tbody>tr>td {vertical-align:middle; border-top:0; border-bottom:1px solid #787878;}
 .table-pna .th1 {background:#377fc2;}
 .table-pna .th2 {background:#6c95ce;}
-.menu-list {background:#87b2da; padding:9px 0 11px; color:#fff; font-weight:bold; overflow:hidden;}
+.menu-list {background:gray; padding:9px 0 11px; color:#fff; font-weight:bold; overflow:hidden;}
 .menu-list > div {padding:0 47px;}
 .menu-list span {display:inline-block; font-size:17px; line-height:15px; border-left:1px solid #fff; padding:0 5px;}
 .menu-list span.border_0 {border-left:0;}
@@ -345,6 +345,7 @@ footer {min-width:1000px; background:#585858;}
 .sub-title {font-size:27px; font-family:Museo_Slab; letter-spacing:-1px; text-align:center; padding-top:150px; margin:0;}
 
 .blue {color:#377fc2;}
+.green {color:#228B22}
 .bg_blue {background:#ebeff8;}
 .bg_gray {background:#f3f4f4;}
 
